@@ -63,7 +63,7 @@
   z-index: -2;
 }
 .two-columns {
-  width: 80%; 
+  width: 80%;
   display: flex;
   margin: 100px auto;
   justify-content: space-between;
