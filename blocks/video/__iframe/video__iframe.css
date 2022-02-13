@@ -1,0 +1,9 @@
+.video__iframe {
+    margin-right: 10px;
+    list-style-type: none;
+    margin-bottom: -50px;
+    z-index: 1;
+  }
+  .video__iframe:last-of-type {
+    margin-right: 0;
+  }
