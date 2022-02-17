@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -14,7 +13,7 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="#" class="header__link">Узнать&rarr;</a></p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Здесь картинка школьника">
-      <div class="header__square-pic header__square-pic_type_rotation">
+      <div class="header__square-pic rotation">
       </div>
     </header>
     <main class="content">
@@ -62,16 +61,12 @@
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <ul class="video__iframes">
-          <li class="video__iframe"> 
-            <iframe id="ytplayer-1" style="border: none;" width="515" height="316"
-            src="https://www.youtube.com/embed/M7lc1UVf-VE"></iframe>
-          </li>
-          <li class="video__iframe">
-            <iframe id="ytplayer-2" style="border: none;" width="515" height="316"
-            src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
-          </li>
-        </ul>
+        <div class="video__iframes"> 
+          <iframe class="video__iframe" id="ytplayer-1"
+          src="https://www.youtube.com/embed/M7lc1UVf-VE"></iframe>
+          <iframe class="video__iframe" id="ytplayer-2"
+          src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+        </div>
       </section>
       <section class="oakley">
         <div class="two-columns">
@@ -185,7 +180,7 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle kaufman__triangle_type_rotation"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
@@ -204,47 +199,43 @@
           <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="логотип">
           <p class="footer__author">&copy;Svetlana</p>
         </div>
-        <div class="footer__column footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О практикуме</h3>
-          <nav class="footer__column-links">
-            <ul class="footer__list">
-              <li>
-                <a href="#" class="footer__column-link">Главная</a>
-              </li>
-              <li>
-                <a href="#" class="footer__column-link">Концепция</a>
-              </li>
-              <li>
-                <a href="#" class="footer__column-link">Наставники</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="footer__column footer__column_content_social">
+          <ul class="footer__column-links">
+            <li>
+              <a href="#" class="footer__column-link">Главная</a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">Концепция</a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">Наставники</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
-          <nav class="footer__column-links">
-            <ul class="footer__list">
-              <li>
-                <a href="#" class="footer__column-link">
-                  <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="иконка">
-                  Facebook
-                </a>
-              </li>
-              <li>
-                <a href="#" class="footer__column-link">
-                  <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="иконка">
-                  В Контакте
-                  </a>
-              </li>
-              <li>
-                <a href="#" class="footer__column-link">
-                  <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="иконка">
-                  Instagram
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+          <ul class="footer__column-links">
+            <li>
+              <a href="#" class="footer__column-link">
+                <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="иконка">
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">
+                <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="иконка">
+                В Контакте
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">
+                <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="иконка">
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </div>

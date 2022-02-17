@@ -1,4 +1,5 @@
-@import url(../rotation/rotation.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/rotation/rotation.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -6,7 +7,6 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
-@import url(../blocks/header/__square-pic/_type/header__square-pic_type_rotation.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
@@ -55,18 +55,15 @@
 @import url(../blocks/khan/buy-link/khan__buy-link.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
-@import url(../blocks/kaufman/__triangle/_type/kaufman__triangle_type_rotation.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
-@import url(../blocks/footer/__column/_content/footer__column_content_social.css);
+@import url(../blocks/footer/column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
-@import url(../blocks/footer/__list/footer__lict.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
